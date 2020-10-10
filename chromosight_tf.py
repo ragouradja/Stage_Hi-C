@@ -9,7 +9,7 @@ file_tf = os.listdir(path_tf)
 for tf in file_tf:
 
 	name_tf = tf.split("_")[2].split(".")[0]
-	os.system("chromosight quantify ./../Pairs/{} {} ./results/{}".format(tf,name_map,name_tf))
+	os.system("chromosight quantify ./../Pairs/{} {} ./results/{}_loops".format(tf,name_map,name_tf))
 	
 		
 		
